@@ -1,6 +1,6 @@
-# Biblioteca com MongoDB
+# Biblioteca de livros utilizando MongoDB
 
-Este é um projeto Spring Boot que utiliza MongoDB para gerenciar informações sobre livros em uma biblioteca.
+Projeto Spring Boot que utiliza MongoDB para gerenciar informações sobre livros em uma biblioteca.
 
 ## Como Executar
 
@@ -12,7 +12,9 @@ Execute a classe principal `BibliotecaMongoApplication` para iniciar a aplicaç�
 - **GET /livros/autor/{autor}**: Obter livros por autor.
 - **GET /livros/genero/{genero}**: Obter livros por gênero.
 - **POST /livros**: Adicionar um novo livro.
-  - Exemplo de corpo da requisição:
+
+
+  - Exemplo do corpo da requisição via Json:
     ```json
     {
       "titulo": "O guia do mochileiro das galáxias",
